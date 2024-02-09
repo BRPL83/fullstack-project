@@ -1,0 +1,39 @@
+.prenota-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Imposta l'altezza al 100% della viewport */
+    background-color: #333; /* sfondo scuro */
+    color: #fff; /* colore testo bianco */
+  }
+  
+  .calendario {
+    text-align: center; /* Centra il testo all'interno del calendario */
+    margin-bottom: 20px;
+  }
+  
+  .prenota-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* colore bottone */
+    color: #fff; /* colore testo bottone */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .alert {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745; /* colore sfondo alert */
+    color: #fff; /* colore testo alert */
+    border-radius: 5px;
+  }
+  
+  .calendario p {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+  

@@ -1,0 +1,55 @@
+.navbar {
+  background-color: transparent !important; /* Rende il colore di sfondo trasparente */
+  position: fixed; /* Imposta la navbar come posizionata in modo fisso */
+  width: 100%; /* Assicura che la navbar occupi l'intera larghezza */
+  height: 20%; /* Assicura che la navbar occupi la giusta altezza cosi che il logo non accavalli agli altri componenti */ 
+  z-index: 1000; /* Assicura che la navbar sia sovrapposta ad altri elementi */
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  margin: 0;
+}
+
+.navbar-nav .nav-link {
+  font-size: 20px; /* Modifica la dimensione del carattere come desiderato */
+  color: #fff;
+  margin: 0 10px;
+  transition: font-size 0.3s ease; /* Aggiungi una transizione morbida */
+}
+
+.navbar-nav .nav-link:hover {
+  font-size: 25px; /* Dimensione del carattere al passaggio del mouse */
+  
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+  width: 380px; /* Dimensione predefinita per schermi di dimensioni più grandi (pc) */
+  height: auto; /* Mantieni l'aspetto proporzionato */
+}
+
+@media (max-width: 992px) {
+  .navbar-brand img {
+    width: 180px; /* Metà della dimensione per schermi di dimensioni medie (tablet) */
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 100px; /* Dimensione minima per schermi di dimensioni più piccole (smartphone) */
+  }
+}
+
+
+
+  

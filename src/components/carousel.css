@@ -1,0 +1,27 @@
+/* carousel.css */
+
+.carousel-container {
+  position: relative;
+  z-index: 2; /* Assicura che il Carousel sia posizionato sopra gli altri contenuti */
+}
+
+.carousel-caption {
+  bottom: 0; /* Imposta il contenuto alla parte inferiore del carousel */
+  transform: translateY(-80%); /* Sposta il contenuto verso l'alto del 50% rispetto alla sua altezza */
+}
+
+.carousel-inner {
+  display: flex; /* Utilizza flexbox per allineare i contenuti verticalmente */
+  flex-direction: column; /* Imposta la direzione della flessione come colonna */
+}
+
+.carousel-item {
+  display: none; /* Nasconde gli elementi del carousel di default */
+}
+
+.carousel-item.active {
+  display: flex; /* Mostra solo l'elemento attivo */
+}
+
+
+

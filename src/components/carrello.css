@@ -1,0 +1,59 @@
+.carrello-container {
+  background-color: #212529;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.payment-form {
+  align-self: center;
+  width: 350px;
+  margin-top: auto;
+}
+
+.payment-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.payment-form label,
+.payment-form input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.payment-form input {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.payment-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.payment-form button:hover {
+  background-color: #0056b3;
+}
+
+.card-logos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card-logo {
+  width: 40px;
+}
+
+

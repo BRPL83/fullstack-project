@@ -1,0 +1,32 @@
+.accreg-container {
+  background-image: url('../images/accreg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center; /* Allinea verticalmente al centro */
+  justify-content: center; /* Allinea orizzontalmente al centro */
+  
+  backdrop-filter: blur(4px); /* Applica un effetto di blur solo all'immagine di sfondo */
+}
+
+ 
+/* Aumentato lo spazio tra le caselle di input */
+.form-group {
+  margin-bottom: 20px; /* Aumentato lo spazio tra le caselle di input */
+}
+
+/* Aggiunto stile per centrare i form all'interno della colonna */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+/* Aggiunto margine inferiore ai form per separarli dal bottone Registrati e Accedi */
+.form-group {
+  margin-bottom: 25px; /* Aumentato il margine inferiore per una maggiore separazione */
+}
+  
+
+  
